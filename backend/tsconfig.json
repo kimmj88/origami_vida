@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "common": ["common/index.ts"],
+      "controller": ["controller/index.ts"],
+      "database": ["database/index.ts"],
+      "service": ["service/index.ts"],
+      "class": ["class/index.ts"]
+    },
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": false,
+    "moduleDetection": "force",
+    "esModuleInterop": true
+  }
+}
